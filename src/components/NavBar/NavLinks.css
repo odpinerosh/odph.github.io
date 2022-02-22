@@ -1,0 +1,18 @@
+.nav-links {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.nav-ulist {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.no-show {
+   
+    display: none;
+}
