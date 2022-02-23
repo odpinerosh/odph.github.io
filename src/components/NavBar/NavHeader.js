@@ -1,20 +1,30 @@
-import React from "react";
+import React, {useState} from "react";
 import NavLinks from "./NavLinks";
 
 import './NavHeader.css';
 
 const NavHeader = () => {
 
+    const [showNavLinks, setNavLinks] = useState(false);
+
+    const alterState = () => {
+        alert(showNavLinks);
+        setNavLinks(!showNavLinks);
+    }
+
     return (
         
         <div className="nav-header">
             <a href='../index.js' className="nav-logo">&#123; odph &#125;</a>
 
-            <button class="btn nav-btn">
-                <span class="hamburger" >|||</span>
+            <button onClick={alterState} className="btn nav-btn">
+                <span className="hamburger" >|||</span>
             </button>
 
-            <NavLinks />
+            <div className={showNavLinks ? 'nav-links' : 'nav-links no-show'}>
+                <NavLinks />
+            </div>
+            
 
         </div>
         

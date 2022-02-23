@@ -1,9 +1,3 @@
-.nav-links {
-    flex-basis: 100%;
-    flex-grow: 1;
-    align-items: center;
-}
-
 .nav-ulist {
     display: flex;
     flex-direction: column;
@@ -12,7 +6,7 @@
     list-style: none;
 }
 
-.no-show {
-   
-    display: none;
+.nav-link {
+    font-size: 1.2rem;
 }
+

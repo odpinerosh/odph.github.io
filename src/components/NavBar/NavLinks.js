@@ -4,7 +4,7 @@ import './NavLinks.css';
 const NavLinks = () => {
 
     return (
-        <div className="nav-links">
+        <>
             <ul className="nav-ulist">
                 <li className="nav-li">
                     <a href="#" class="nav-link">Inicio</a>
@@ -16,7 +16,7 @@ const NavLinks = () => {
                     <a href="#contacto" class="nav-link">Contacto</a>
                 </li>
             </ul>
-        </div>
+        </>
     )
 }
 
