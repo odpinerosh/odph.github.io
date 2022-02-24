@@ -1,5 +1,5 @@
 .nav-bar {
-    /*border: solid 1px red;*/
+    background-color: #F8F9FA;
 }
 
 .nav-header {
@@ -18,10 +18,19 @@
     /* the tricks */
     transform: rotate(90deg);
     border: none;
-    color: #000;
+   
+    color: rgb(121, 121, 121);
     background-color: transparent;
+    /*transition: 2s ease-in-out;*/
 }
 
+.btn:active {
+    transform: scale(90%) rotate(90deg);
+}
+
+.hamburger {
+    line-height: 10px;
+}
 
 .nav-links {
     flex-basis: 100%;
@@ -34,4 +43,22 @@
     position: relative; 
     height: 0;
     overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .nav-header {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .nav-links {
+        flex-basis: 0;
+        flex-grow: 0;
+
+    }
+    
+    .nav-btn {
+        display: none;
+    }
 }

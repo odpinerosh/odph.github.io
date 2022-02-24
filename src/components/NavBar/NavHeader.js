@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import NavLinks from "./NavLinks";
 
 import './NavHeader.css';
@@ -6,9 +6,18 @@ import './NavHeader.css';
 const NavHeader = () => {
 
     const [showNavLinks, setNavLinks] = useState(false);
+    
+    const [matches, setMatches] = useState (
+        window.matchMedia("(min-width: 768px)").matches
+    )
+    
+    useEffect(() => {
+        window
+            .matchMedia("(min-width: 768px)")
+            .addEventListener('change', e => setMatches( e.matches ));
+      }, []);    
 
     const alterState = () => {
-        alert(showNavLinks);
         setNavLinks(!showNavLinks);
     }
 
@@ -21,7 +30,7 @@ const NavHeader = () => {
                 <span className="hamburger" >|||</span>
             </button>
 
-            <div className={showNavLinks ? 'nav-links' : 'nav-links no-show'}>
+            <div className={showNavLinks || matches ? 'nav-links' : 'nav-links no-show'}>
                 <NavLinks />
             </div>
             
