@@ -1,4 +1,7 @@
-
+.App {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
 
 .App-header {
   background-color: #282c34;
