@@ -6,10 +6,7 @@ import NavHeader from "./NavHeader";
 const NavCenter = () => {
 
     return (
-        <div>
-            <NavHeader />
-
-        </div>
+        <NavHeader />
     )
 }
 

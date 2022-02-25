@@ -1,0 +1,33 @@
+.hero {
+    display: grid;
+    place-items: center;
+    /*ackground-image: url('https://res.cloudinary.com/odph-digiassets/image/fetch/v1579364835/https://i.imgur.com/QEKb4ty.png');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    height: 30vh;
+    min-height: 30vh;
+    width: 100vw;
+}
+
+.hero-h1 {
+    color: red;
+    font-size: calc(3em + 1vw);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-h1:before {
+    content: '{  ';
+}
+
+.hero-h1:after {
+    content: '  }';
+}
+
+@media screen and (min-width: 768px) {
+
+    .hero {
+        height: 90vh;
+    }
+
+}

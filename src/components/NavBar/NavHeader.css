@@ -1,13 +1,9 @@
-.nav-bar {
-    background-color: #F8F9FA;
-}
-
 .nav-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
+    transition: all 2s 10ms ease-in;
     height: auto;
     font-size: 1.5rem;
     padding: .5rem 1rem;
@@ -55,7 +51,6 @@
     .nav-links {
         flex-basis: 0;
         flex-grow: 0;
-
     }
     
     .nav-btn {

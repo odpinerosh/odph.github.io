@@ -7,13 +7,13 @@ const NavLinks = () => {
         <>
             <ul className="nav-ulist">
                 <li className="nav-li">
-                    <a href="#" class="nav-link">Inicio</a>
+                    <a href="#" className="nav-link">Inicio</a>
                 </li>
                 <li className="nav-li">
-                    <a href="#proyectos" class="nav-link">Proyectos</a>
+                    <a href="#proyectos" className="nav-link">Proyectos</a>
                 </li>
                 <li className="nav-li">
-                    <a href="#contacto" class="nav-link">Contacto</a>
+                    <a href="#contacto" className="nav-link">Contacto</a>
                 </li>
             </ul>
         </>
