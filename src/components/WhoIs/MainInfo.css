@@ -1,20 +1,21 @@
 .main-info {
     background-color: #F8F9FA;
     display: grid;
-    place-items: center;
+    align-content: center;
     min-height: 30vh;
     height: 30vh;
     
 }
 
 .main-info-h1 {
+    color: #383a3b;
     text-transform: capitalize;
     font-size: 2.3rem;
     text-align: center;
-    width: 90%;
 }
 
 .main-info-p {
-    font-size: 1.8rem;
+    color: #383a3b;
+    font-size: 1.2rem;
     text-align: center;
 }
