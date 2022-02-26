@@ -24,7 +24,7 @@ const NavHeader = () => {
     return (
         
         <div className="nav-header">
-            <a href='../index.js' className="nav-logo">&#123; odph &#125;</a>
+            <a href='../index.js' className="nav-logo">odph</a>
 
             <button onClick={alterState} className="btn nav-btn">
                 <span className="hamburger" >|||</span>

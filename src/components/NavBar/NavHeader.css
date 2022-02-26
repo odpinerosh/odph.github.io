@@ -9,6 +9,17 @@
     padding: .5rem 1rem;
 }
 
+.nav-logo:before {
+    content: '{ ';
+}
+
+.nav-logo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-logo:after {
+    content: ' }';
+}
 
 .btn {
     /* the tricks */
