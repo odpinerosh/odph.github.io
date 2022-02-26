@@ -14,8 +14,41 @@
     list-style: none;
     padding: 0;
 } 
+
+.fab {
+    font-size: 3rem;
+    color: #fff;
+    animation: animate 4s linear infinite;
+    text-shadow: 0 0 1.5rem #0072ff, 0 0 2rem #0072ff, 0 0 2.5rem #0072ff, 0 0 3rem #0072ff;
+}
+
+.fa-react {
+    animation-delay: 0.8s;
+}
+
+.fa-html5 {
+    animation-delay: 0.5s;
+}
+.fa-css3 {
+    animation-delay: 0.1s;
+}
+.fa-js {
+    animation-delay: 0.4s;
+}
+
+
+
  .img-tech {
      width: 5rem;
      height: 5rem;
      object-fit: cover;
+ }
+
+ @keyframes animate {
+     from {
+         filter: hue-rotate(0deg);
+     }
+     to {
+         filter: hue-rotate(360deg);
+     }
  }

@@ -11,10 +11,10 @@ const FeTech = () => {
         <div className = 'fe-tech'>
             <div className="img-container">
                 <ul className="img-list">
-                    <li><img src={htmlLogo} className="img-tech" alt="html logo"></img></li>
-                    <li><img src={cssLogo} className="img-tech" alt="css logo"></img></li>
-                    <li><img src={jsLogo} className="img-tech" alt="js logo"></img></li>
-                    <li><img src={reactLogo} className="img-tech" alt="react logo"></img></li>
+                    <li><i class="fab fa-react"></i></li>
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-css3"></i></li>
+                    <li><i class="fab fa-js"></i></li>
                 </ul>
             </div>
         </div>
