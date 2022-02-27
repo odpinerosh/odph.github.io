@@ -18,8 +18,12 @@
 .fab {
     font-size: 3rem;
     color: #fff;
-    animation: animate 4s linear infinite;
+    animation: animate 5s linear infinite;
     text-shadow: 0 0 1.5rem #0072ff, 0 0 2rem #0072ff, 0 0 2.5rem #0072ff, 0 0 3rem #0072ff;
+}
+
+.esp-react {
+    animation: rota-react 18s linear infinite;
 }
 
 .fa-react {
@@ -49,6 +53,17 @@
          filter: hue-rotate(0deg);
      }
      to {
+         filter: hue-rotate(360deg);
+     }
+ }
+
+ @keyframes rota-react {
+     from {
+         transform: rotate(0deg);
+         filter: hue-rotate(0deg);
+     }
+     to {
+         transform: rotate(360deg);
          filter: hue-rotate(360deg);
      }
  }

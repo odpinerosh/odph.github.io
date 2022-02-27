@@ -1,7 +1,6 @@
 .hero {
     display: grid;
     place-items: center;
-    /*ackground-image: url('https://res.cloudinary.com/odph-digiassets/image/fetch/v1579364835/https://i.imgur.com/QEKb4ty.png');*/
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
@@ -27,7 +26,7 @@
 @media screen and (min-width: 768px) {
 
     .hero {
-        height: 90vh;
+        height: 100vh;
     }
 
 }
