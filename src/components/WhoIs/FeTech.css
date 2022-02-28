@@ -37,33 +37,32 @@
     animation-delay: 0.1s;
 }
 .fa-js {
-    animation-delay: 0.4s;
+    animation-delay: 0.9s;
 }
 
 
+.img-tech {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
 
- .img-tech {
-     width: 5rem;
-     height: 5rem;
-     object-fit: cover;
- }
+@keyframes animate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
 
- @keyframes animate {
-     from {
-         filter: hue-rotate(0deg);
-     }
-     to {
-         filter: hue-rotate(360deg);
-     }
- }
-
- @keyframes rota-react {
-     from {
-         transform: rotate(0deg);
-         filter: hue-rotate(0deg);
-     }
-     to {
-         transform: rotate(360deg);
-         filter: hue-rotate(360deg);
-     }
- }
+@keyframes rota-react {
+    from {
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}

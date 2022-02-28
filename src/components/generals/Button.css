@@ -1,0 +1,17 @@
+.btn-visit {
+    background-color: #167BFF;
+    color: #ffc;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.btn-visit:hover {
+    background-color: #0b57b9;
+}
+
+.btn-visit:active {
+    transform: scale(90%);
+}
