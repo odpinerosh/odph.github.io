@@ -1,9 +1,14 @@
 .project-cards {
     width: 100vw;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr;
+    place-items: center;
 }
 
 .cards-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
 }

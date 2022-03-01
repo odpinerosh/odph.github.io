@@ -1,16 +1,15 @@
 .single-card {
-    width: 70vw;
     border-radius: 10px;
     border: 1px solid rgba(0,0,0,.125);
     box-shadow: 3px 4px 18px -1px rgb(0 0 0 / 75%);
-    height: fit-content;
-    margin: 2rem 0;
+    flex: 1 1 320px;
+    margin: 2rem;
+    width: 320px;
 }
 
 .card-img {
     height: 40vh;
     width: 100%;
-    border-bottom: 1px solid rgba(0,0,0,.125);
     overflow: hidden;
     filter: grayscale(60%);
 }
@@ -21,6 +20,7 @@
     flex-wrap: wrap;
     align-items: center;
     padding: 1.5rem;
+
 }
     
 .pro-title, 
