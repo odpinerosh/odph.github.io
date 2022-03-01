@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    /*transition: all 2s 10ms ease-in;*/
     height: auto;
     font-size: 1.5rem;
     padding: .5rem 1rem;
@@ -63,8 +62,10 @@
     }
     
     .nav-links {
+        overflow: visible;
         flex-basis: 0;
         flex-grow: 0;
+        height: 2rem;
     }
     
     .nav-btn {
