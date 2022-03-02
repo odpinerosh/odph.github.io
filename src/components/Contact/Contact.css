@@ -27,8 +27,22 @@
 .contact-list-li i {
     color: var(--fawe-icons-color);
     font-size: 3rem;
+    transition: transform 0.5s 0.2s, color 0.8s 0.5s;
 }
 
 .contact-list-li i:hover {
     transform: scale(120%);
+    
+}
+
+.fa-twitter:hover {
+    color:rgb(0, 4, 255);
+}
+
+.fa-linkedin:hover {
+    color:rgb(12, 12, 36);
+}
+
+.fa-github:hover {
+    color:rgb(255, 0, 0);
 }

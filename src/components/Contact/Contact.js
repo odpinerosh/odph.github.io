@@ -4,7 +4,7 @@ import './Contact.css';
 const Contact = () => {
 
     return (
-        <section className="contact-section">
+        <section className="contact-section" id="contacto">
             <h2 className="contact-title">contacto</h2>
             <ul className="contact-list">
                 <li className="contact-list-li"><a href="https://twitter.com/odpinerosh" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a></li>

@@ -6,8 +6,8 @@ import './CardGroup.css';
 const CardGroup = () => {
 
     return (
-        <section className = "project-cards">
-            <h2 className="project-cards-title">proyectos</h2>
+        <section className = "project-cards" >
+            <h2 className="project-cards-title" id="proyectos">proyectos</h2>
             <div className="cards-container">
                 {arrProjects.map(
                     (project, arrInd) => (

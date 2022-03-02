@@ -7,8 +7,12 @@
 
 :root {
   --main-bg-color: #E9ECEF;
+  --main-bg-color-dark: #000;
   --main-font-color:#383a3b;
   --fawe-icons-color: #0C56B3;
+  --odph-color: #ff0000;
+  --text-white-color: #E9ECEF;
+  
 }
 
 /* Remove default margin */

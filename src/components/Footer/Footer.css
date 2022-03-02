@@ -1,0 +1,33 @@
+.section-footer {
+    align-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color-dark);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 40vh;
+    min-height: 40vh;
+    justify-content: space-between;
+    padding: 4rem;
+    width: 100vw;
+    
+}
+
+.footer-title:before {
+    content: "{ ";
+}
+
+.footer-title {
+    color: var(--odph-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.footer-title:after {
+    content: " }";
+}
+
+
+.footer-p {
+    color: var(--text-white-color);
+}
