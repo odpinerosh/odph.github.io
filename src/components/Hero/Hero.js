@@ -12,7 +12,7 @@ const Hero = () => {
 
     
     return (
-        <section className="hero" style ={sectionStyle}>
+        <section className="hero" style ={sectionStyle} id="inicio">
             <p className="hero-h1">odph</p>
         </section>
     );
