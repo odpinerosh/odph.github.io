@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-bg-color: #E9ECEF;
+  --main-font-color:#383a3b;
+  --fawe-icons-color: #0C56B3;
+}
+
 /* Remove default margin */
 body,
 h1,

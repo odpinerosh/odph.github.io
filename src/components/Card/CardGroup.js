@@ -7,7 +7,7 @@ const CardGroup = () => {
 
     return (
         <section className = "project-cards">
-            <h2>proyectos</h2>
+            <h2 className="project-cards-title">proyectos</h2>
             <div className="cards-container">
                 {arrProjects.map(
                     (project, arrInd) => (

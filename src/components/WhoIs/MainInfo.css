@@ -1,5 +1,5 @@
 .main-info {
-    background-color: #F8F9FA;
+    background-color: var(--main-bg-color);
     display: grid;
     align-content: center;
     min-height: 30vh;
@@ -8,14 +8,18 @@
 }
 
 .main-info-h1 {
-    color: #383a3b;
-    text-transform: capitalize;
-    font-size: 2.3rem;
+    color: var(--main-font-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(2rem, 0.75rem + 1.5vw, 2.4rem);
     text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
 }
 
 .main-info-p {
-    color: #383a3b;
-    font-size: 1.2rem;
+    color: var(--main-font-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1.5rem, 0.75rem + 1.5vw, 1.4rem);
+    font-weight: 300;
     text-align: center;
 }
