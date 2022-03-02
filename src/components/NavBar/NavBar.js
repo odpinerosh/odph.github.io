@@ -6,7 +6,7 @@ import './NavBar.css';
 const NavBar = () => {
 
     return (
-        <nav className = "nav-bar">
+        <nav className = "nav-bar" id="inicio">
             <NavCenter />
         </nav>
     )

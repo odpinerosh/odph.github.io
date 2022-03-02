@@ -7,7 +7,7 @@ const NavLinks = () => {
         <>
             <ul className="nav-ulist">
                 <li className="nav-li">
-                    <a href="#" className="nav-link">Inicio</a>
+                    <a href="#inicio" className="nav-link">Inicio</a>
                 </li>
                 <li className="nav-li">
                     <a href="#proyectos" className="nav-link">Proyectos</a>
