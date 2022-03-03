@@ -21,7 +21,7 @@
     justify-content: space-around;
     list-style: none;
     padding: 0;
-    width: 30vw;
+    width: 60vw;
 }
 
 .contact-list-li i {
@@ -45,4 +45,13 @@
 
 .fa-github:hover {
     color:rgb(255, 0, 0);
+}
+
+@media screen and (min-width: 768px) {
+    
+    .contact-list {
+        width: 30vw;
+    }
+    
+
 }

@@ -8,7 +8,7 @@
     height: 40vh;
     min-height: 40vh;
     justify-content: space-between;
-    padding: 4rem;
+    padding: 2rem;
     width: 100vw;
     
 }
@@ -21,6 +21,7 @@
     color: var(--odph-color);
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+    font-size: calc(10px + 5vw);
 }
 
 .footer-title:after {
@@ -29,5 +30,6 @@
 
 
 .footer-p {
+    text-align: center;
     color: var(--text-white-color);
 }

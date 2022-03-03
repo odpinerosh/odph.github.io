@@ -1,6 +1,7 @@
 .fe-tech {
     background-color: var(--main-bg-color-dark);
     text-align: center;
+    height: 20vh;
 }
 
 .img-container {
