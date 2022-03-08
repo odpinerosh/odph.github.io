@@ -2,13 +2,15 @@
     border-radius: 10px;
     border: 1px solid rgba(0,0,0,.125);
     box-shadow: 3px 4px 18px -1px rgb(0 0 0 / 75%);
-    flex: 1 1 320px;
-    margin: 2rem;
-    width: 320px;
+    width: clamp(45ch, 50%, 75ch);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .card-img {
-    height: 40vh;
+    height: 100px;
     width: 100%;
     overflow: hidden;
     filter: grayscale(60%);
