@@ -7,7 +7,7 @@ const arrProjects = [
     },
     {
         pname: 'Recetas al Punto',
-        ptext: 'Delicionas recetas con amor, sin trucos ni complicaciones.',
+        ptext: 'Deliciosas recetas con amor, sin trucos ni complicaciones.',
         pimg: "/images/recetas2.png",
         purl: "https://odpinerosh.github.io/recetas/"
     },
@@ -18,10 +18,10 @@ const arrProjects = [
         purl: "https://odpinerosh.github.io/jinhseq/"
     },
     {
-        pname: 'Moovi',
-        ptext: 'Un pequeño resumen de las mejores películas que he visto.',
-        pimg: "https://res.cloudinary.com/odph-digiassets/image/fetch/q_auto,f_auto/https://i.imgur.com/ZjaWTfJ.png",
-        purl: "https://odpinerosh.github.io/movi/"
+        pname: 'Batatabit',
+        ptext: 'La próxima revolución en el intercambio de criptomonedas.',
+        pimg: "/images/batatabit.png",
+        purl: "https://odpinerosh.github.io/batatabit/"
     },
 ];
 
