@@ -13,13 +13,13 @@ const arrProjects = [
     },
     {
         pname: 'Jinneth Rodríguez',
-        ptext: 'Página para la trabajadora social experta en HSEQ, Jinneth Rodríguez.',
+        ptext: 'Sitio web de Jinneth Rodríguez, experta en HSEQ.',
         pimg: "/images/jinhseq2.png",
         purl: "https://odpinerosh.github.io/jinhseq/"
     },
     {
         pname: 'Batatabit',
-        ptext: 'La próxima revolución en el intercambio de criptomonedas.',
+        ptext: 'Intermediación para el intercambio seguro de criptomonedas.',
         pimg: "/images/batatabit.png",
         purl: "https://odpinerosh.github.io/batatabit/"
     },
